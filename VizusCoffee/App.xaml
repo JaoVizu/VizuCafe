@@ -1,0 +1,14 @@
+﻿<Application x:Class="VizusCoffee.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="18"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="Height" Value="30"/>
+        </Style>
+    </Application.Resources>
+</Application>

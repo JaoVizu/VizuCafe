@@ -1,0 +1,24 @@
+﻿<Window x:Class="VizusCoffee.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="VizusCoffee" Height="350" Width="525">
+    <Grid>
+        <StackPanel VerticalAlignment="Center">
+            <Grid ShowGridLines="True">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Row="0" x:Name="btnCadastrarCafe" Click="btnCadastrarCafe_Click"
+                        Cursor="Hand">Cadastrar Café</Button>
+                <Button Grid.Row="0" Grid.Column="1" x:Name="btnListarCafe" Click="btnListarCafe_Click"
+                        Cursor="Hand">Listar Cafés</Button>
+                <Button Grid.Column="2" x:Name="btnRelatorio" Click="BtnRelatorio_Click" Cursor="Hand">Arquivos</Button>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Window>

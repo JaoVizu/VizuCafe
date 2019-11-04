@@ -1,0 +1,42 @@
+c:\users\alunos\documents\visual studio 2013\Projects\VizusCoffee\VizusCoffee\bin\Debug\VizusCoffee.exe.config
+c:\users\alunos\documents\visual studio 2013\Projects\VizusCoffee\VizusCoffee\bin\Debug\VizusCoffee.exe
+c:\users\alunos\documents\visual studio 2013\Projects\VizusCoffee\VizusCoffee\bin\Debug\VizusCoffee.pdb
+c:\users\alunos\documents\visual studio 2013\Projects\VizusCoffee\VizusCoffee\obj\Debug\VizusCoffee.csprojResolveAssemblyReference.cache
+c:\users\alunos\documents\visual studio 2013\Projects\VizusCoffee\VizusCoffee\obj\Debug\CadastrarCafe.baml
+c:\users\alunos\documents\visual studio 2013\Projects\VizusCoffee\VizusCoffee\obj\Debug\MainWindow.baml
+c:\users\alunos\documents\visual studio 2013\Projects\VizusCoffee\VizusCoffee\obj\Debug\CadastrarCafe.g.cs
+c:\users\alunos\documents\visual studio 2013\Projects\VizusCoffee\VizusCoffee\obj\Debug\MainWindow.g.cs
+c:\users\alunos\documents\visual studio 2013\Projects\VizusCoffee\VizusCoffee\obj\Debug\App.g.cs
+c:\users\alunos\documents\visual studio 2013\Projects\VizusCoffee\VizusCoffee\obj\Debug\VizusCoffee_MarkupCompile.cache
+c:\users\alunos\documents\visual studio 2013\Projects\VizusCoffee\VizusCoffee\obj\Debug\VizusCoffee.g.resources
+c:\users\alunos\documents\visual studio 2013\Projects\VizusCoffee\VizusCoffee\obj\Debug\VizusCoffee.Properties.Resources.resources
+c:\users\alunos\documents\visual studio 2013\Projects\VizusCoffee\VizusCoffee\obj\Debug\VizusCoffee.csproj.GenerateResource.Cache
+c:\users\alunos\documents\visual studio 2013\Projects\VizusCoffee\VizusCoffee\obj\Debug\VizusCoffee.exe
+c:\users\alunos\documents\visual studio 2013\Projects\VizusCoffee\VizusCoffee\obj\Debug\VizusCoffee.pdb
+c:\users\alunos\documents\visual studio 2013\Projects\VizusCoffee\VizusCoffee\obj\Debug\App.baml
+c:\users\alunos\documents\visual studio 2013\Projects\VizusCoffee\VizusCoffee\obj\Debug\ListarCafe.baml
+c:\users\alunos\documents\visual studio 2013\Projects\VizusCoffee\VizusCoffee\obj\Debug\ListarCafe.g.cs
+C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\bin\Debug\VizusCoffee.exe.config
+C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\bin\Debug\VizusCoffee.exe
+C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\bin\Debug\VizusCoffee.pdb
+C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\bin\Debug\MySql.Data.dll
+C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\obj\Debug\VizusCoffee.csprojAssemblyReference.cache
+C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\obj\Debug\CadastrarCafe.baml
+C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\obj\Debug\ListarCafe.baml
+C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\obj\Debug\MainWindow.baml
+C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\obj\Debug\App.baml
+C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\obj\Debug\CadastrarCafe.g.cs
+C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\obj\Debug\ListarCafe.g.cs
+C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\obj\Debug\MainWindow.g.cs
+C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\obj\Debug\App.g.cs
+C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\obj\Debug\VizusCoffee_MarkupCompile.cache
+C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\obj\Debug\VizusCoffee.g.resources
+C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\obj\Debug\VizusCoffee.Properties.Resources.resources
+C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\obj\Debug\VizusCoffee.csproj.GenerateResource.cache
+C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\obj\Debug\VizusCoffee.csproj.CoreCompileInputs.cache
+C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\obj\Debug\VizusCoffee.csproj.CopyComplete
+C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\obj\Debug\VizusCoffee.exe
+C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\obj\Debug\VizusCoffee.pdb
+C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\obj\Debug\Arquivo.g.cs
+C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\obj\Debug\VizusCoffee_MarkupCompile.lref
+C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\obj\Debug\Arquivo.baml
