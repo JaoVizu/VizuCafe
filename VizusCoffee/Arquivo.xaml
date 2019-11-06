@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VizusCoffee"
         mc:Ignorable="d"
-        Title="Arquivo" Height="200" Width="800">
-    <Grid VerticalAlignment="Center">
-        <Grid.RowDefinitions >
+        Title="Arquivo" Height="216.334" Width="800">
+    <Grid VerticalAlignment="Bottom">
+        <Grid.RowDefinitions>
             <RowDefinition Height="100" ></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
@@ -16,5 +16,12 @@
         </Grid.ColumnDefinitions>
         <Button Cursor="Hand" FontSize="18" FontWeight="SemiBold" Click="Button_Click">Gerar arquivo JSON</Button>
         <Button Grid.Column="1" Cursor="Hand" FontSize="18" FontWeight="SemiBold" Click="Button_Click_1">Gerar arquivo CSV</Button>
+        <DockPanel HorizontalAlignment="Left" Height="54" LastChildFill="False" Margin="131,-78,0,0" VerticalAlignment="Top" Width="110">
+            <WrapPanel>
+                <Button x:Name="btnDialog" Click="BtnDialog_Click">Abrir arquivo JSON</Button>
+            </WrapPanel>
+        </DockPanel>
+        <TextBlock HorizontalAlignment="Left" Margin="27,-76,0,0" TextWrapping="Wrap" Text="Importar Dados" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>

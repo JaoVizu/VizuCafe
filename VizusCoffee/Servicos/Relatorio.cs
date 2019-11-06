@@ -39,7 +39,17 @@ namespace VizusCoffee.Servicos
             saida.Close();
         }
 
-        public void diretorioExiste()
+
+        public List<Cafe> lerJson(String FileName)
+        {
+            List<Cafe> cafes = new List<Cafe>();
+            DataContractJsonSerializer ser = new DataContractJsonSerializer(typeof(List<Cafe>));
+            FileStream fs = new FileStream(@FileName, FileMode.OpenOrCreate);
+            cafes = (List<Cafe>)ser.ReadObject(fs);
+            fs.Close();
+            return cafes;
+        }
+        private void diretorioExiste()
         {
             string diretorio = @"C:\VizuCafe - Relatorio";
 
