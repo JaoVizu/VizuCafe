@@ -43,6 +43,7 @@ namespace VizusCoffee
         private void BtnDialog_Click(object sender, RoutedEventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "JSON files (*.json) | *.json";
             if(openFileDialog.ShowDialog() == true)
             {
                 Relatorio relatorio = new Relatorio();

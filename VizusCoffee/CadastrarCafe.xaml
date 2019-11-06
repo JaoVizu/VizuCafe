@@ -69,7 +69,13 @@
 
                 <Button Grid.Column="1" Grid.Row="2" Margin="0,50,0,-40" 
                         Padding="0,0,1,1" FontSize="14" Cursor="Hand"
-                        Click="Button_Click">Cadastrar</Button>
+                        Click="Button_Click">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                            <GradientStop Color="#FF4038EE" Offset="1"/>
+                            <GradientStop Color="#FF6150AC"/>
+                        </LinearGradientBrush>
+                    </Button.Background> Cadastrar</Button>
             </Grid>
 
         </StackPanel>

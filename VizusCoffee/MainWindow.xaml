@@ -4,8 +4,9 @@
         Title="VizusCoffee" Height="350" Width="525">
     <Grid>
         <StackPanel VerticalAlignment="Center">
-            <Grid ShowGridLines="True">
+            <Grid>
                 <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
                     <RowDefinition Height="50"></RowDefinition>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
@@ -13,11 +14,32 @@
                     <ColumnDefinition></ColumnDefinition>
                     <ColumnDefinition></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-                <Button Grid.Row="0" x:Name="btnCadastrarCafe" Click="btnCadastrarCafe_Click"
-                        Cursor="Hand">Cadastrar Café</Button>
-                <Button Grid.Row="0" Grid.Column="1" x:Name="btnListarCafe" Click="btnListarCafe_Click"
-                        Cursor="Hand">Listar Cafés</Button>
-                <Button Grid.Column="2" x:Name="btnRelatorio" Click="BtnRelatorio_Click" Cursor="Hand">Arquivos</Button>
+                <TextBlock Grid.ColumnSpan="3" Text="VIZU's COFFEE" Grid.Row="0" HorizontalAlignment="Center"
+                           FontSize="32" Margin="0,0,0,20" FontWeight="bold" FontFamily="Arial" />
+                <Button Grid.Row="1" x:Name="btnCadastrarCafe" Click="btnCadastrarCafe_Click"
+                        Cursor="Hand" Foreground="White">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                            <GradientStop Color="#FF4038EE" Offset="1"/>
+                            <GradientStop Color="#FF6150AC"/>
+                        </LinearGradientBrush>
+                    </Button.Background> Cadastrar Café
+                </Button>
+                <Button Grid.Row="1" Grid.Column="1" x:Name="btnListarCafe" Click="btnListarCafe_Click"
+                        Cursor="Hand"  BorderThickness="2">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                            <GradientStop Color="#FF4038EE" Offset="1"/>
+                            <GradientStop Color="#FF6150AC"/>
+                        </LinearGradientBrush>
+                    </Button.Background> Listar Cafés</Button>
+                <Button Grid.Column="2" Grid.Row="1" x:Name="btnRelatorio" Click="BtnRelatorio_Click" Cursor="Hand">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                            <GradientStop Color="#FF4038EE" Offset="1"/>
+                            <GradientStop Color="#FF6150AC"/>
+                        </LinearGradientBrush>
+                    </Button.Background>Arquivos</Button>
             </Grid>
         </StackPanel>
     </Grid>

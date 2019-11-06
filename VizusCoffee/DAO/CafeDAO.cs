@@ -14,9 +14,6 @@ namespace VizusCoffee.DAO
     public class CafeDAO
     {
         private MySqlConnection conn;
-        private MySqlDataAdapter daCafe;
-        private DataSet dsCafe;
-        private const string tabela = "cafe";
         private String connectionString = ConfigurationManager.ConnectionStrings["banco"].ConnectionString;
 
         public List<Cafe> listar()

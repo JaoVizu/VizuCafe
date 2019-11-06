@@ -14,14 +14,32 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Button Cursor="Hand" FontSize="18" FontWeight="SemiBold" Click="Button_Click">Gerar arquivo JSON</Button>
-        <Button Grid.Column="1" Cursor="Hand" FontSize="18" FontWeight="SemiBold" Click="Button_Click_1">Gerar arquivo CSV</Button>
-        <DockPanel HorizontalAlignment="Left" Height="54" LastChildFill="False" Margin="131,-78,0,0" VerticalAlignment="Top" Width="110">
-            <WrapPanel>
-                <Button x:Name="btnDialog" Click="BtnDialog_Click">Abrir arquivo JSON</Button>
+        <Button Cursor="Hand" FontSize="18" FontWeight="SemiBold" Click="Button_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FF4038EE" Offset="1"/>
+                    <GradientStop Color="#FF6150AC"/>
+                </LinearGradientBrush>
+            </Button.Background> Gerar arquivo JSON</Button>
+        <Button Grid.Column="1" Cursor="Hand" FontSize="18" FontWeight="SemiBold" Click="Button_Click_1">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FF4038EE" Offset="1"/>
+                    <GradientStop Color="#FF6150AC"/>
+                </LinearGradientBrush>
+            </Button.Background> Gerar arquivo CSV</Button>
+        <DockPanel HorizontalAlignment="Left" Height="54" LastChildFill="False" Margin="130,-67,0,0" VerticalAlignment="Top" Width="150">
+            <WrapPanel Width="150">
+                <Button x:Name="btnDialog" Click="BtnDialog_Click" Width="150" Cursor="Hand">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                            <GradientStop Color="#FF4038EE" Offset="1"/>
+                            <GradientStop Color="#FF6150AC"/>
+                        </LinearGradientBrush>
+                    </Button.Background> Abrir arquivo JSON</Button>
             </WrapPanel>
         </DockPanel>
-        <TextBlock HorizontalAlignment="Left" Margin="27,-76,0,0" TextWrapping="Wrap" Text="Importar Dados" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="28,-65,0,0" TextWrapping="Wrap" Text="Importar Dados" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
