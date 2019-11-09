@@ -1,5 +1,6 @@
 # VizuCafe
-Trabalho para a aula de POO
+Trabalho para a aula de POO.
+O instalador se encontra na pasta <strong>Setup</strong>
 
 # RODAR O SCRIPT MYSQL
 Antes de iniciar o programa, é necessário rodar o script <strong>Banco.sql</strong>
