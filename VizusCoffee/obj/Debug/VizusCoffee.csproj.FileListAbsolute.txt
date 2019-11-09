@@ -20,7 +20,6 @@ C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\bin\Debug\VizusCoffee.exe
 C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\bin\Debug\VizusCoffee.exe
 C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\bin\Debug\VizusCoffee.pdb
 C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\bin\Debug\MySql.Data.dll
-C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\obj\Debug\VizusCoffee.csprojAssemblyReference.cache
 C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\obj\Debug\CadastrarCafe.baml
 C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\obj\Debug\ListarCafe.baml
 C:\Users\joaovizu\source\repos\VizusCoffee\VizusCoffee\obj\Debug\MainWindow.baml

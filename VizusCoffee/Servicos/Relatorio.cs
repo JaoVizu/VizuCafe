@@ -37,6 +37,7 @@ namespace VizusCoffee.Servicos
             }
             sw.Close();
             saida.Close();
+            MessageBox.Show("Arquivo criado com sucesso no diretorio - C:\\VizuCafe - Relatorio\\");
         }
 
 
